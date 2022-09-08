@@ -1,0 +1,435 @@
+body{
+	padding:0;
+	margin:0;
+}
+/* -------------------------------nav bar start---------------------------------*/
+
+
+.navbar{
+	 display:flex;
+	 padding:20px 0;
+	 width:100%;
+	 background-color:#76448A;
+	 align-items:center;
+	 justify-content:space-between;
+	 color:#D0D3D4;
+	 overflow:hidden;
+	 
+}
+#logo{
+	width:60px;
+	height:60px;
+	padding-left:20px
+}
+#logo img{
+	height:60px;
+
+}
+.right-container{
+	width:50vw ;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+.pages{
+	display:flex;
+	}
+	
+.pages li{
+	padding: 0 15px 0 15px;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.buttons { 
+	width:20%;
+	display:flex;
+	padding:0 20px 0 20px;
+	justify-content:space-between;
+	align-items:center;
+	
+}  
+.buttons button{
+	padding:10px;
+	border-radius:20px;
+	border:0;
+	background-color:orange;
+	color:white
+	
+}
+/* *****************nav bar end--welcome page starts-**************** -*/
+
+
+
+.section-one{
+	height:90vh;
+	background-image: url("ocean.jpg" );
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:center;
+	padding:0 0 30px 0;
+	padding:20px;
+}
+.section-one button{
+	
+	padding:10px 30px;
+	border-radius:25px;
+	border:0;
+	background-color:orange;
+	color:white;
+	font-size:24px;
+	font-weight:bold;
+	margin:35px;
+	  
+}
+
+.section-one h1{
+	color:white;
+	margin:0;
+	padding:0;
+	font-size:45px;
+	
+}
+.main{	
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:100px;
+}
+
+.main div img{ 
+	height:35vh;
+	width:29vw;
+	
+	
+}
+.first-section{
+	width:30vw;
+	height:20vh;
+	border-radius:20px;
+	align-items: center;
+	text-align:center;
+}
+
+.first-section p{
+	width:30vw;
+	text-align:center;	
+}
+.first-section img{
+	height:250px;
+	border-radius:20px;
+	align-items: center;
+}
+.second-section{
+	height:250px;
+	border-radius:20px;
+	align-items: center;
+	text-align:center;
+}
+
+.second-section img{
+	height:250px;
+	border-radius:20px;
+	align-items: center;
+}
+
+.second-section p{
+	width:31vw;
+	text-align:center;	
+}
+
+.third-section{
+	height:250px;
+	border-radius:20px;
+	text-align:justify;
+	
+}
+.third-section p{
+	width:31vw;
+	text-align:center;	
+}
+.third-section img{
+	height:250px;
+	border-radius:20px;
+	align-items: center;
+}
+.main p{
+	font-size:20px;
+	width:100%;
+} 
+.second-main{
+	
+	display:flex;
+	justify-content:space-evenly;
+	width:100%; 
+	overflow:hidden;	
+	margin-top: 100px;
+}
+.secheading-container{
+	font-size:50px;
+	width:40%;
+	padding-left:40px;
+	color:#76448A; 
+	font-weight:bold;
+
+}
+.second-main img{
+	border-radius:20px;
+	width:90%;
+}
+.secheading-container p{
+	font-weight:bold;
+	font-style:georgian;
+	font-size:50px;
+}
+.secimage-container{
+	width:50%;
+	padding-right:20px;
+}
+.secheading-container button{
+	padding:10px 30px;
+	border-radius:25px;
+	border:0;
+	background-color:orange;
+	color:white;
+	font-size:24px;
+	font-weight:bold;
+
+}
+.footer-container{
+	display:flex; 
+	flex-direction:column;
+	justify-content:enter;
+	align-items:flex-end;
+	padding:10px;
+	margin-top:100px;
+	font-size:18px;
+	color:white;
+}
+
+li{
+	list-style:none;
+}
+footer{
+		background-color:purple;
+		color:white;
+}
+
+@media only screen and (max-width: 900px){
+.navbar{
+	 flex-direction:column;
+	 align-items:start ;
+	 justify-content:flex-start; 
+	 
+}  
+
+.right-container{
+	width:100vw ;
+	display:flex;
+	align-items:flex-start;
+	flex-direction:column;
+	
+
+}
+.pages li{
+	padding-left:0;
+}
+
+.buttons { 
+	width:30vw;
+	display:flex;
+	justify-content:flex-start;
+
+}
+.buttons button{
+	margin: 0 10vw 0 0;
+	display:flex;
+	justify-content:flex-start;	
+}
+
+.heading-container{
+	padding:0 20px 20px 0 ;
+	width:40%;	
+}
+
+.image-container{
+	padding:0 20px;
+	width:50%;
+}
+
+.image-container img{
+	height:70%;
+}
+.section-one{
+	height:300px;
+}
+.main{
+	width:100%;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+
+.third-section{
+	padding-top:100px;
+
+	
+}
+
+.third-section p{ 
+	width:400px;
+	text-align:center;
+	
+} 
+.second-main p{
+	justify-content:space-evenly;
+	font-size:30px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 600px){
+.navbar{
+	
+	 display:flex;
+	 flex-direction:column;
+	 align-items:center;
+	 justify-content:center;
+
+	 
+}
+.right-container{
+	width:100vw ;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+.pages{
+	display:flex;
+	flex-direction:column;
+}
+.buttons { 
+	width:100vw;
+	flex-direction:column;
+	display:flex;
+	padding:20px ;
+	justify-content:space-evenly;
+	align-items:center;
+	
+}
+.buttons button{
+	display:flex;
+	margin:10px 10px;
+
+	
+}
+
+
+.section-one{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:flex-end;
+	align-items:center;
+	padding:0 0 30px 0;
+	padding:20px;
+	font-size:30px;
+}
+
+.section-one h1{
+	font-size:25px;
+	
+}
+
+
+.section-one button{
+	padding:5px 15px;
+	border-radius:15px;
+	font-size:20px;
+	font-weight:bold;
+	margin:35px;
+	
+}
+
+
+
+.main{
+	margin-top:20px;
+	flex-direction:column;
+
+}
+
+.first-section{
+	width:100%;
+	align-items: center;
+	padding-top:0;
+	align-items:center;
+	justify-content:center
+}
+
+.first-section p{
+	width:100%;
+	text-align:center;
+	align-items:center;
+	justify-content:center
+
+}
+
+.second-section{
+	width:100%;
+	align-items: center;
+	padding-top:100px;
+}
+
+.second-section p{
+	width:100%;
+	text-align:center;
+	align-items:center;
+	justify-content:center
+
+}
+
+
+.third-section{
+	width:100%;
+	align-items: center;
+	padding-top:100px;
+}
+
+.heading-container{
+	width:50%;
+	justify-content:flex-start;
+	
+}
+.image-container{
+	padding: px;
+	width:100%;
+	align-items: center;
+}
+.section-one{
+	height:250px;
+}
+.second-main{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	font-size:25px;
+}
+
+.second-main p{
+	font-size:25px;
+}
+.second-main img{
+	width:100%;
+	flex-direction:column;
+}

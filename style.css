@@ -3,8 +3,6 @@ body{
 	margin:0;
 }
 /* -------------------------------nav bar start---------------------------------*/
-
-
 .navbar{
 	 display:flex;
 	 padding:20px 0;
@@ -13,8 +11,7 @@ body{
 	 align-items:center;
 	 justify-content:space-between;
 	 color:#D0D3D4;
-	 overflow:hidden;
-	 
+	 overflow:hidden; 
 }
 #logo{
 	width:60px;
